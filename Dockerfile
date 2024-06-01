@@ -6,6 +6,6 @@ RUN apt-get install -y git
 
 RUN git clone https://github.com/Lum1n33/lab__10.git
 
-WORKDIR /lab_10
+WORKDIR /lab__10
 
 CMD ["python", "main.py"]
